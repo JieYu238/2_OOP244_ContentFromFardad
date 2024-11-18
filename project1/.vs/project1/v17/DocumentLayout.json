@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\1_Seneca\\semester2\\OOP244ZRA\\ContentFromFardad\\project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F16D144A-ABFD-44E8-8D7F-F87A131D6245}|project1.vcxproj|D:\\1_Seneca\\semester2\\OOP244ZRA\\ContentFromFardad\\project1\\prj.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F16D144A-ABFD-44E8-8D7F-F87A131D6245}|project1.vcxproj|solutionrelative:prj.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "prj.cpp",
+              "DocumentMoniker": "D:\\1_Seneca\\semester2\\OOP244ZRA\\ContentFromFardad\\project1\\prj.cpp",
+              "RelativeDocumentMoniker": "prj.cpp",
+              "ToolTip": "D:\\1_Seneca\\semester2\\OOP244ZRA\\ContentFromFardad\\project1\\prj.cpp",
+              "RelativeToolTip": "prj.cpp",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T14:56:39.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
