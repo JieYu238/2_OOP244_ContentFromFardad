@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\2_OOP244_ContentFromFardad\\Project7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|D:\\2_OOP244_ContentFromFardad\\Project7\\MyStr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|solutionrelative:MyStr.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|D:\\2_OOP244_ContentFromFardad\\Project7\\Util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|solutionrelative:Util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|D:\\2_OOP244_ContentFromFardad\\Project7\\prg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|solutionrelative:prg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|D:\\2_OOP244_ContentFromFardad\\Project7\\Util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|solutionrelative:Util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|D:\\2_OOP244_ContentFromFardad\\Project7\\MyStr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E6C4F16D-91A0-460D-AA12-29FDA84DA3DF}|Project7.vcxproj|solutionrelative:MyStr.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Util.cpp",
+              "DocumentMoniker": "D:\\2_OOP244_ContentFromFardad\\Project7\\Util.cpp",
+              "RelativeDocumentMoniker": "Util.cpp",
+              "ToolTip": "D:\\2_OOP244_ContentFromFardad\\Project7\\Util.cpp",
+              "RelativeToolTip": "Util.cpp",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAmwCgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T17:14:05.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MyStr.cpp",
+              "DocumentMoniker": "D:\\2_OOP244_ContentFromFardad\\Project7\\MyStr.cpp",
+              "RelativeDocumentMoniker": "MyStr.cpp",
+              "ToolTip": "D:\\2_OOP244_ContentFromFardad\\Project7\\MyStr.cpp",
+              "RelativeToolTip": "MyStr.cpp",
+              "ViewState": "AQIAABUAAAAAAAAAAAAmwCEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T17:14:04.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "prg.cpp",
+              "DocumentMoniker": "D:\\2_OOP244_ContentFromFardad\\Project7\\prg.cpp",
+              "RelativeDocumentMoniker": "prg.cpp",
+              "ToolTip": "D:\\2_OOP244_ContentFromFardad\\Project7\\prg.cpp",
+              "RelativeToolTip": "prg.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T17:13:55.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyStr.h",
+              "DocumentMoniker": "D:\\2_OOP244_ContentFromFardad\\Project7\\MyStr.h",
+              "RelativeDocumentMoniker": "MyStr.h",
+              "ToolTip": "D:\\2_OOP244_ContentFromFardad\\Project7\\MyStr.h",
+              "RelativeToolTip": "MyStr.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-19T17:13:42.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Util.h",
+              "DocumentMoniker": "D:\\2_OOP244_ContentFromFardad\\Project7\\Util.h",
+              "RelativeDocumentMoniker": "Util.h",
+              "ToolTip": "D:\\2_OOP244_ContentFromFardad\\Project7\\Util.h",
+              "RelativeToolTip": "Util.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwAcAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-19T17:13:30.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
