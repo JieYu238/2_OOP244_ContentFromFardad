@@ -2,16 +2,19 @@
 #include "Util.h"
 using namespace std;
 using namespace seneca;
+/*
+cout, clog, cerr
+*/
 int main() {
 	
 	char name[81];
-	cout << "Please enter name\n>";
+	clog << "Please enter name\n>";
 	ut.getCstr(name, 5);
-	cout << name << endl;
+	clog << name << endl;
 
-	cout << "Please enter name\n>";
+	clog << "Please enter name\n>";
 	ut.getCstr(name, 80);
-	cout << name << endl;
+	clog << name << endl;
 	
 	return 0;
 }
