@@ -1,5 +1,6 @@
 #ifndef SENECA_MYSTR_H
 #define SENECA_MYSTR_H
+#include<iostream>//in header file, not allow using namespace std!!!
 namespace seneca {
 	class MyStr
 	{
@@ -9,7 +10,8 @@ namespace seneca {
 		MyStr(const char* cString);
 		MyStr(const char* cString, size_t maxLen);
 		~MyStr();
-		void print()const;
+		MyStr& set(const char* cString);
+		std::ostream& print()const;
 	};
 }
 
