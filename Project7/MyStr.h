@@ -22,6 +22,7 @@ namespace seneca {
 		std::istream& read(char delimiter = '\n', std::istream & istr = std::cin);
 	};
 	std::ostream& operator<<(std::ostream& ostr, const MyStr& str);
+
 }
 
 #endif//!SENECA_MYSTR_H

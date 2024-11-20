@@ -16,5 +16,6 @@ int main() {
 	cout << name << endl;
 
 	file << "Here is the value of the MyStr object: " << name << endl;
+	
 	return 0;
 }
