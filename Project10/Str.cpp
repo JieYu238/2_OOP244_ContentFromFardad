@@ -15,7 +15,7 @@ namespace seneca {
       for ( i = oldLen; i < newsize+1; i++ ) {
          m_data[i] = ' ';
       }
-      m_data[newsize+1] = 0; 
+      m_data[newsize+1] = 0; //there need to notice that if newsize is smaller, that's why we do not write like m_data[i] = 0;
       return *this;
    }
    Str::Str( const char* data ){   // m_data is initialized
@@ -96,6 +96,8 @@ namespace seneca {
       ut.getCstr( m_data, istr , delimiter);
       return istr;
    }
+
+   //non-member varible when you don't have to access the left operand class
    Str operator+( const char* cstr, const Str& str ) {
       Str result( cstr );
       result += str;

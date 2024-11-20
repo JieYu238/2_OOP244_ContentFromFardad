@@ -38,6 +38,8 @@ namespace seneca {
         std::ostream& print(std::ostream& ostr = std::cout)const;
         std::istream& read(char delimiter = '\n', std::istream& istr = std::cin);
     };
+
+    //friends in object-orientation are for knife in a back, never ever you use it unless you have to 
     Str operator+(const char* cstr, const Str& str);
     std::ostream& operator<<(std::ostream& ostr, const Str& str);
     std::istream& operator>>(std::istream& ostr, Str& str);
