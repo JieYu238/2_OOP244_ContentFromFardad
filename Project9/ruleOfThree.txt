@@ -1,0 +1,24 @@
+int main(){
+	MyStr A = "Hello";
+	MyStr B = A;
+	cout << B << endl;
+	return 0;
+}
+
+If no copy constructor is explicitly defined, the compiler generates
+a default copy constructor. This default copy constructor performs
+a shallow copy of all members. For m_data, the pointer value is copied
+, but not the data it points to.
+
+!!!!Now both A.m_data and B.m_data point to the same memory.
+
+when A and B go out of scope, their destructors are called.
+
+If your destructor deallocates m_data (e.g., via delete[] m_data),
+this causes double deletion:
+1.	A and B both point to the same memory.
+2.	When the destructor of one object (say A) is called, 
+	the memory pointed to by m_data is deallocated.
+3.	When the destructor of the other object (say B) is called, 
+	it attempts to deallocate the same memory again, 
+	resulting in undefined behavior (crash, memory corruption, etc.).
