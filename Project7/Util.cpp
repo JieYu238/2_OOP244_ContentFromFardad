@@ -89,22 +89,25 @@ namespace seneca {
 		}
 	}
 
-	bool Util::getCstr(char*& str)
+	bool Util::getDynCstr(char*& str, std::istream& istr, char delimiter)
 	{
+		delete[] str;
 		str = nullptr;
 		char buf[MAX_DYNAMIC_READ];
-		cin.getline(buf, MAX_DYNAMIC_READ);
-		if (cin) {
+		istr.getline(buf, MAX_DYNAMIC_READ, delimiter);
+		if (istr) {
 			str = new char[this->strlen(buf) + 1];	//this keyword makes that we can use the method in Util
 			this->strcpy(str, buf);
 		}
 		else {
-			cin.clear();
-			cin.ignore(10000, '\n');
+			istr.clear();
+			istr.ignore(10000, '\n');
 		}
 
 		return bool(str);
 	}
+
+
 
 	//get and getline, getline hits the delimiter and stop it.
 

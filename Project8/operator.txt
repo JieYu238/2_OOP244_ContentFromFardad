@@ -1,0 +1,42 @@
+Atype A;
+Btype B;
+Ctype C;
+A = B @ C;
+A = B + C;	//non-member binary operators with no side-effect
+A = B - C;
+A = B / C;
+A = B * C;
+A = B && C;
+
+
+A = B += C; //binary operators with side-effect
+Atype Btype::operator+=(Ctype value);
+Atype& Btype::operator+=(Ctype value);
+Atype Btype::operator+=(const Ctype& value);
+
+A = B -= C;
+A = B /= C;
+A = B *= C;
+A = cout << C;
+
+A = @B; // prefix unary operator without side-effect
+Atype? Btype::operator@();
+A = +B; 
+A = -B;
+A = !B;
+
+A = ++B;
+A = --B;// prefix unary operator with side-effect
+
+
+A = B++;
+A = B--;// postfix unary operator with side-effect
+
+Atype A;
+Btype B;
+Ctype C;
+A = B @ C;
+A = B + C;	//non-member (helper) binary operators with no side-effect
+A = B - C;
+
+Atype operator@(Btype leftOperand, Ctype rightOperand);

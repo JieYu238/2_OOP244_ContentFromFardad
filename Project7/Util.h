@@ -1,3 +1,4 @@
+#include<iostream>
 #ifndef SENECA_UTILS_H
 #define SENECA_UTILS_H
 namespace seneca {
@@ -22,10 +23,9 @@ namespace seneca {
 		/// </summary>
 		/// <param name="str">: points to dynamic value enter from user</param>
 		/// <returns>success</returns>
-		bool getCstr(char*& str);
-
-
+		bool getDynCstr(char*& str, std::istream& istr = std::cin, char delimiter='\n');
 		bool yes(const char* prompt = nullptr);
+
 
 	};
 	extern Util ut;	//prototype for the ut declared inside Util.cpp

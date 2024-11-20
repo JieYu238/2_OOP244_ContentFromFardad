@@ -18,12 +18,12 @@ namespace seneca {
 	{
 		delete[] m_data;
 	}
-	MyStr& MyStr::set(const char* cstr)
+	MyStr& MyStr::operator=(const char* cstr)
 	{
 		ut.aloCopy(m_data, cstr);
 		return *this;
 	}
-	MyStr& MyStr::cat(const char* data)
+	MyStr& MyStr::operator+=(const char* data)
 	{
 		//memory resizing
 		if (data) {
@@ -35,10 +35,46 @@ namespace seneca {
 		}
 		return *this;
 	}
-	ostream& MyStr::print() const
+	MyStr& MyStr::operator+=(const MyStr& mstr)
+	{
+		return operator+=(mstr.m_data);
+	}
+	MyStr& MyStr::operator--()
+	{
+		if (m_data && m_data[0]) {
+			MyStr temp = &m_data[1];
+			*this = temp;
+		}
+		return *this;
+	}
+	MyStr& MyStr::operator--(int)
+	{
+		if (m_data && m_data[0]) {
+			
+			MyStr temp(m_data, ut.strlen(m_data) - 1);
+			operator = (temp);//same as line 46 
+		}
+		return *this;
+	}
+	MyStr& MyStr::operator=(const MyStr& mstr)
+	{
+		return operator=(mstr.m_data);
+	}
+
+	ostream& MyStr::print(ostream& ostr) const
 	{
 
-		return cout << (m_data ? m_data : "");
+		return ostr << (m_data ? m_data : "");
 
+	}
+	std::istream& MyStr::read(char delimiter, std::istream& istr)
+	{
+		ut.getDynCstr(m_data, istr, delimiter);
+		return istr;
+	}
+	std::ostream& operator<<(std::ostream& ostr, const MyStr& str)
+	{
+
+		return str.print(ostr);
 	}
 }
