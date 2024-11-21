@@ -13,8 +13,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4-BaseRefAndPtrVirtual", "4
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5-BaseRefAndPtrPureVirtual", "5-BaseRefAndPtrPureVirtual\5-BaseRefAndPtrPureVirtual.vcxproj", "{2F001A48-BB01-48A0-B3EB-8117E1668D56}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6-BaseRefAndPtrInterface", "6-BaseRefAndPtrInterface\6-BaseRefAndPtrInterface.vcxproj", "{D5C8F76A-64AE-4714-93A3-6B8017D07D80}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project12", "Project12.vcxproj", "{2E7A5AE2-2C59-4D65-812A-86C1298FF6FA}"
 EndProject
 Global
@@ -65,14 +63,6 @@ Global
 		{2F001A48-BB01-48A0-B3EB-8117E1668D56}.Release|x64.Build.0 = Release|x64
 		{2F001A48-BB01-48A0-B3EB-8117E1668D56}.Release|x86.ActiveCfg = Release|Win32
 		{2F001A48-BB01-48A0-B3EB-8117E1668D56}.Release|x86.Build.0 = Release|Win32
-		{D5C8F76A-64AE-4714-93A3-6B8017D07D80}.Debug|x64.ActiveCfg = Debug|x64
-		{D5C8F76A-64AE-4714-93A3-6B8017D07D80}.Debug|x64.Build.0 = Debug|x64
-		{D5C8F76A-64AE-4714-93A3-6B8017D07D80}.Debug|x86.ActiveCfg = Debug|Win32
-		{D5C8F76A-64AE-4714-93A3-6B8017D07D80}.Debug|x86.Build.0 = Debug|Win32
-		{D5C8F76A-64AE-4714-93A3-6B8017D07D80}.Release|x64.ActiveCfg = Release|x64
-		{D5C8F76A-64AE-4714-93A3-6B8017D07D80}.Release|x64.Build.0 = Release|x64
-		{D5C8F76A-64AE-4714-93A3-6B8017D07D80}.Release|x86.ActiveCfg = Release|Win32
-		{D5C8F76A-64AE-4714-93A3-6B8017D07D80}.Release|x86.Build.0 = Release|Win32
 		{2E7A5AE2-2C59-4D65-812A-86C1298FF6FA}.Debug|x64.ActiveCfg = Debug|x64
 		{2E7A5AE2-2C59-4D65-812A-86C1298FF6FA}.Debug|x64.Build.0 = Debug|x64
 		{2E7A5AE2-2C59-4D65-812A-86C1298FF6FA}.Debug|x86.ActiveCfg = Debug|Win32
