@@ -130,15 +130,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\1-Animal\Animal.h" />
-    <ClInclude Include="..\1-Animal\Utils.h" />
+    <ClInclude Include="Animal.h" />
     <ClInclude Include="Cat.h" />
+    <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\1-Animal\Animal.cpp" />
-    <ClCompile Include="..\1-Animal\Utils.cpp" />
+    <ClCompile Include="Animal.cpp" />
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
