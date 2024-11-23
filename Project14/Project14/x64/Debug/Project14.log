@@ -1,0 +1,7 @@
+﻿  prg.cpp
+D:\2_OOP244_ContentFromFardad\Project14\prg.cpp(28,20): warning C4244: '=': conversion from 'double' to 'type', possible loss of data
+D:\2_OOP244_ContentFromFardad\Project14\prg.cpp(28,20): warning C4244:         with
+D:\2_OOP244_ContentFromFardad\Project14\prg.cpp(28,20): warning C4244:         [
+D:\2_OOP244_ContentFromFardad\Project14\prg.cpp(28,20): warning C4244:             type=int
+D:\2_OOP244_ContentFromFardad\Project14\prg.cpp(28,20): warning C4244:         ]
+  Project14.vcxproj -> D:\2_OOP244_ContentFromFardad\Project14\x64\Debug\Project14.exe
